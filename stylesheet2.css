@@ -1,0 +1,233 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ここからCSSを書いていきましょう */
+.top {
+  background-image: url(https://prog-8.com/images/html/advanced/top.png);
+  background-size: cover;
+  height: 630px;
+}
+
+.topCenter {
+  text-align: center;
+  width: 1170px;
+  margin: 0 auto;
+
+}
+
+.topContents {
+  padding: 180px 0 100px 0;
+}
+
+.catchCopy {
+  font-size: 45px;
+  font-weight: bold;
+  color: white;
+  opacity: 0.7;
+  letter-spacing: 5px;
+}
+
+.description {
+  color: white;
+  opacity: 0.7;
+}
+
+.btn {
+  padding: 8px 0 8px 0;
+  margin: 0 auto;
+  border-radius: 4px;
+  width: 180px;
+  opacity: 0.8;
+  color: white;
+  display: inline-block;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.newBtn {
+  background-color: #239b76;
+  
+}
+
+.facebookBtn {
+  background-color: #3b5998;
+  margin: 0 10px 0 0;
+}
+
+.twitterBtn {
+  background-color: #55acee;
+}
+
+.btnAndP p {
+  color: white;
+  margin: 15px 0;
+}
+
+.btnAndP {
+  margin: 30px 0 0 0;
+}
+
+.icon {
+  margin: 0 5px 0 0;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  z-index: 10;
+}
+
+header img {
+  padding: 20px 0 0 0;
+  width: 124px;
+}
+
+.LRheader{
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.leftHeader {
+  float: left;
+}
+
+.rightHeader {
+  float: right;
+}
+
+.rightHeader a{
+  color: white;
+  background-color: rgba(255,255,255,0.3);
+  display: block;
+  line-height: 65px;
+  padding:0 25px;
+}
+
+.main1 {
+  height: 580px;
+  background-color: #f7f7f7;
+}
+
+.main1170 {
+  width: 1170px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.main1170 h2 {
+  font-weight: normal;
+  color: #5f5d60;
+  padding: 80px 0 50px 0;
+}
+
+.lang {
+  width: 25%;
+  float: left;
+}
+
+.langDescription{
+  width: 80%;
+  margin: 15px auto;
+  color: #b3aeb5;
+  font-size: 13px;
+}
+
+.TandI {
+  position: relative;
+
+}
+
+.centerText {
+  color: white;
+}
+
+.align1 {
+  position: absolute;
+  top: 90px;
+  left: 90px;
+}
+
+.align2 {
+  position: absolute;
+  top: 90px;
+  left: 120px;
+}
+
+.align3 {
+  position: absolute;
+  top: 90px;
+  left: 125px;
+}
+
+.align4 {
+  position: absolute;
+  top: 90px;
+  left: 130px;
+}
+
+.messageSection {
+  text-align: center;
+  padding: 80px 0;
+}
+
+.message {
+  padding: 0 0 50px 0;
+}
+
+.message h2, h3 {
+  color: #5f5d60;
+}
+
+.developBtn a{
+  background-color: #5dca88;
+  opacity: 0.8;
+  color: white;
+  display: inline-block;
+  padding: 15px 40px;
+  border-radius: 4px;
+  box-shadow: 0 7px #1a7940;
+}
+
+.developBtn a:hover{
+  opacity: 1;
+}
+
+footer {
+  border-top: solid 1px #eee;
+  padding: 30px 0;
+}
+
+.f1170 {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+footer img {
+  width: 124px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
