@@ -1,0 +1,45 @@
+body {
+    font-family: 'Osaka', 'MS Pゴシック', sans-serif;
+    
+}
+
+section {
+    /* border: 3px solid grey; */
+    text-align: center;
+}
+
+#box {
+    border: 3px solid grey;
+    height: 300px;
+    width: 300px;
+    margin: 0px auto;
+    line-height: 300px;
+    font-size: 250px;
+    background: azure;
+    cursor: pointer;
+    user-select: none;
+}
+
+#w_i_Sec {
+    border: 3px solid grey;
+    height: 300px;
+    width: 300px;
+    margin: 0px auto;
+}
+
+#language {
+    margin: 10px 0;
+}
+
+#alphabet {
+    margin: 0 0 0 10px;
+}
+
+.space {
+    padding: 0 0 0 3px;
+}
+
+#line {
+    margin: 0 0 0 10px;
+    font-size: 20px;
+}
