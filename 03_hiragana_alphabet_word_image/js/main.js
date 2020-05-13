@@ -35,7 +35,7 @@ const wordHiragana = {
 
 // アルファベット単語をオブジェクトに格納
 const wordAlphabet = {
-    A_Z_w: ['airport', 'bicycle', 'coffee', 'donut', 'egg', 'fork', 'grape', 'hand', 'ice cream', 'japan', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'],
+    A_Z_w: ['airport', 'bicycle', 'coffee', 'donut', 'egg', 'fork', 'grape', 'hand', 'ice cream', 'japan', 'kitchen', 'lion', 'milk', 'novel', 'ocean', 'piano', 'quiz', 'rice', 'sandwich', 'taxi', 'uniform', 'volleyball', 'window', 'xylophone', 'yard', 'zoo'],
 };
 
 // ひらがな画像をオブジェクトに格納
@@ -55,7 +55,7 @@ const imageHiragana = {
 
 // アルファベット画像をオブジェクトに格納
 const imageAlphabet = {
-    A_Z_w: ['images/51_a_a.png', 'images/52_a_b.png', 'images/53_a_c.png', 'images/54_a_d.png', 'images/55_a_e.png', 'images/56_a_f.png', 'images/57_a_g.png', 'images/58_a_h.png', 'images/59_a_i.png', 'images/60_a_j.png', 'images/hiragana01.png', 'images/hiragana02.png', 'images/hiragana03.png', 'images/hiragana04.png', 'images/hiragana05.png', 'images/hiragana01.png', 'images/hiragana02.png', 'images/hiragana03.png', 'images/hiragana04.png', 'images/hiragana05.png', 'images/hiragana01.png', 'images/hiragana02.png', 'images/hiragana03.png', 'images/hiragana04.png', 'images/hiragana05.png', 'images/hiragana05.png'],
+    A_Z_w: ['images/51_a_a.png', 'images/52_a_b.png', 'images/53_a_c.png', 'images/54_a_d.png', 'images/55_a_e.png', 'images/56_a_f.png', 'images/57_a_g.png', 'images/58_a_h.png', 'images/59_a_i.png', 'images/60_a_j.png', 'images/61_a_k.png', 'images/62_a_l.png', 'images/63_a_m.png', 'images/64_a_n.png', 'images/65_a_o.png', 'images/66_a_p.png', 'images/67_a_q.png', 'images/68_a_r.png', 'images/69_a_s.png', 'images/70_a_t.png', 'images/71_a_u.png', 'images/72_a_v.png', 'images/73_a_w.png', 'images/74_a_x.png', 'images/75_a_y.png', 'images/76_a_z.png'],
 };
 
 const box = document.getElementById('box');
