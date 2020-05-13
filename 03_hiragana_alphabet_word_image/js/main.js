@@ -73,6 +73,34 @@ let obName = Object.keys(hiragana)[r1];
 let obWordName = Object.keys(wordHiragana)[r1];
 let obImageName = Object.keys(imageHiragana)[r1];
 
+// console.log(Object.keys(imageAlphabet).length);
+// console.log(imageAlphabet[Object.keys(imageAlphabet)[0]]);
+// console.log(imageHiragana[Object.keys(imageHiragana)[1]]);
+// console.log(imageHiragana[Object.keys(imageHiragana)[1]].length);
+// console.log(imageHiragana[Object.keys(imageHiragana)[1]][3]);
+
+// console.log(Object.keys(imageHiragana).length);
+
+//ロード時に先に画像を読み込む
+window.onload = function () {
+    let img;
+    for (let i = 0; i < Object.keys(imageHiragana).length; i++) {
+        for (let j = 0; j < imageHiragana[Object.keys(imageHiragana)[i]].length; j++) {
+            img = document.createElement('img');
+            img.src = imageHiragana[Object.keys(imageHiragana)[i]][j];
+            console.log(img.src);
+        }
+    }
+
+    for (let i = 0; i < Object.keys(imageAlphabet).length; i++) {
+        for (let j = 0; j < imageAlphabet[Object.keys(imageAlphabet)[i]].length; j++) {
+            img = document.createElement('img');
+            img.src = imageAlphabet[Object.keys(imageAlphabet)[i]][j];
+            console.log(img.src);
+        }
+    }
+};
+
 
 // ラジオボタンクリック時の関数
 function def (ob, obWord, obImage) {
