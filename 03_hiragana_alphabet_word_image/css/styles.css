@@ -5,25 +5,38 @@ body {
 
 section {
     /* border: 3px solid grey; */
+    /* display: flex; */
     text-align: center;
+    width: 700px;
+    margin: 0 auto;
+
+}
+
+#flexContainer {
+    display: flex;
+    /* justify-content: center; */
+
 }
 
 #box {
     border: 3px solid grey;
-    height: 300px;
-    width: 300px;
+    height: 350px;
+    width: 350px;
     margin: 0px auto;
-    line-height: 300px;
-    font-size: 250px;
+    line-height: 350px;
+    font-size: 300px;
     background: azure;
     cursor: pointer;
-    user-select: none;
+    user-select: none; /* CSS3 */
+    -moz-user-select: none; /* Firefox */
+    -webkit-user-select: none; /* Safari、Chromeなど */
+    -ms-user-select: none; /* IE10かららしい */
 }
 
 #w_i_Sec {
-    border: 3px solid grey;
-    height: 300px;
-    width: 300px;
+    /* border: 3px solid grey; */
+    height: 350px;
+    width: 350px;
     margin: 0px auto;
 }
 
@@ -42,4 +55,8 @@ section {
 #line {
     margin: 0 0 0 10px;
     font-size: 20px;
+}
+
+#word {
+    font-size: 50px;
 }
